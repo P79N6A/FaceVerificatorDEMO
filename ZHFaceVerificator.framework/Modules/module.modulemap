@@ -1,0 +1,6 @@
+framework module ZHFaceVerificator {
+  umbrella header "ZHFaceVerificator.h"
+
+  export *
+  module * { export * }
+}

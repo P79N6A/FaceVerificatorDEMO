@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6100111821BF93A900C8CF07 /* ZHFaceVerificator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6100111721BF93A800C8CF07 /* ZHFaceVerificator.framework */; };
+		6100111921BF93B400C8CF07 /* ZHFaceVerificator.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6100111721BF93A800C8CF07 /* ZHFaceVerificator.framework */; };
+		611BA80D21B286D50030D65C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611BA80C21B286D50030D65C /* CoreTelephony.framework */; };
+		611BA80F21B286E10030D65C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 611BA80E21B286E10030D65C /* libresolv.tbd */; };
+		611BA81121B286EA0030D65C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611BA81021B286EA0030D65C /* SystemConfiguration.framework */; };
+		611BA91521B2A9E40030D65C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611BA91421B2A9E40030D65C /* CoreLocation.framework */; };
+		6139CCF121AD1AA400C7012A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6139CCF021AD1AA400C7012A /* AppDelegate.m */; };
+		6139CCF921AD1AA500C7012A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6139CCF821AD1AA500C7012A /* Assets.xcassets */; };
+		6139CCFC21AD1AA500C7012A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6139CCFA21AD1AA500C7012A /* LaunchScreen.storyboard */; };
+		6139CCFF21AD1AA500C7012A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6139CCFE21AD1AA500C7012A /* main.m */; };
+		6169A5D021B1111D000A83EB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6169A5CF21B1111D000A83EB /* libc++.tbd */; };
+		616C48A321B39A3800DE8015 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616C48A221B39A3700DE8015 /* CoreServices.framework */; };
+		617F23B321B3C9F400A2ED2A /* testVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F23B221B3C9F400A2ED2A /* testVCViewController.m */; };
+		9657236B21DDD7A7001E90D9 /* NSObject+JsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657236A21DDD7A7001E90D9 /* NSObject+JsonHelper.m */; };
+		966244BA21D5B93300079B29 /* ZHFaceVerificator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6100111721BF93A800C8CF07 /* ZHFaceVerificator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49458FCBCEC9CDFCE066980 /* libPods-FaceVerificatorDEMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92567E9D137E8CD1A35A44C9 /* libPods-FaceVerificatorDEMO.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6169A5D621B1157D000A83EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				966244BA21D5B93300079B29 /* ZHFaceVerificator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F164678F16BCF98CC9E21F3 /* Pods-FaceVerificatorDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceVerificatorDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceVerificatorDEMO/Pods-FaceVerificatorDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		6100111721BF93A800C8CF07 /* ZHFaceVerificator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZHFaceVerificator.framework; sourceTree = "<group>"; };
+		611BA80C21B286D50030D65C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		611BA80E21B286E10030D65C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		611BA81021B286EA0030D65C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		611BA91021B2A77A0030D65C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		611BA91421B2A9E40030D65C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6139CCEC21AD1AA400C7012A /* FaceVerificatorDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceVerificatorDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6139CCEF21AD1AA400C7012A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6139CCF021AD1AA400C7012A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6139CCF821AD1AA500C7012A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6139CCFB21AD1AA500C7012A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6139CCFD21AD1AA500C7012A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6139CCFE21AD1AA500C7012A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6169A5CF21B1111D000A83EB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		616C48A221B39A3700DE8015 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		617F23B121B3C9F400A2ED2A /* testVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testVCViewController.h; sourceTree = "<group>"; };
+		617F23B221B3C9F400A2ED2A /* testVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testVCViewController.m; sourceTree = "<group>"; };
+		92567E9D137E8CD1A35A44C9 /* libPods-FaceVerificatorDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceVerificatorDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9657236921DDD7A7001E90D9 /* NSObject+JsonHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonHelper.h"; sourceTree = "<group>"; };
+		9657236A21DDD7A7001E90D9 /* NSObject+JsonHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonHelper.m"; sourceTree = "<group>"; };
+		99131FBB5EC52EA48C9094E4 /* Pods-FaceVerificatorDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceVerificatorDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceVerificatorDEMO/Pods-FaceVerificatorDEMO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6139CCE921AD1AA400C7012A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6100111821BF93A900C8CF07 /* ZHFaceVerificator.framework in Frameworks */,
+				616C48A321B39A3800DE8015 /* CoreServices.framework in Frameworks */,
+				611BA91521B2A9E40030D65C /* CoreLocation.framework in Frameworks */,
+				611BA81121B286EA0030D65C /* SystemConfiguration.framework in Frameworks */,
+				611BA80F21B286E10030D65C /* libresolv.tbd in Frameworks */,
+				611BA80D21B286D50030D65C /* CoreTelephony.framework in Frameworks */,
+				6169A5D021B1111D000A83EB /* libc++.tbd in Frameworks */,
+				F49458FCBCEC9CDFCE066980 /* libPods-FaceVerificatorDEMO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441C0752677E11A49B88D281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F164678F16BCF98CC9E21F3 /* Pods-FaceVerificatorDEMO.debug.xcconfig */,
+				99131FBB5EC52EA48C9094E4 /* Pods-FaceVerificatorDEMO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6139CCE321AD1AA400C7012A = {
+			isa = PBXGroup;
+			children = (
+				611BA91021B2A77A0030D65C /* README.md */,
+				6139CCEE21AD1AA400C7012A /* FaceVerificatorDEMO */,
+				6139CCED21AD1AA400C7012A /* Products */,
+				6169A5CE21B1111D000A83EB /* Frameworks */,
+				441C0752677E11A49B88D281 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6139CCED21AD1AA400C7012A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6139CCEC21AD1AA400C7012A /* FaceVerificatorDEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6139CCEE21AD1AA400C7012A /* FaceVerificatorDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				6139CCEF21AD1AA400C7012A /* AppDelegate.h */,
+				6139CCF021AD1AA400C7012A /* AppDelegate.m */,
+				617F23B121B3C9F400A2ED2A /* testVCViewController.h */,
+				617F23B221B3C9F400A2ED2A /* testVCViewController.m */,
+				9657236921DDD7A7001E90D9 /* NSObject+JsonHelper.h */,
+				9657236A21DDD7A7001E90D9 /* NSObject+JsonHelper.m */,
+				6139CCF821AD1AA500C7012A /* Assets.xcassets */,
+				6139CCFA21AD1AA500C7012A /* LaunchScreen.storyboard */,
+				6139CCFD21AD1AA500C7012A /* Info.plist */,
+				6139CCFE21AD1AA500C7012A /* main.m */,
+			);
+			path = FaceVerificatorDEMO;
+			sourceTree = "<group>";
+		};
+		6169A5CE21B1111D000A83EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6100111721BF93A800C8CF07 /* ZHFaceVerificator.framework */,
+				616C48A221B39A3700DE8015 /* CoreServices.framework */,
+				611BA91421B2A9E40030D65C /* CoreLocation.framework */,
+				611BA81021B286EA0030D65C /* SystemConfiguration.framework */,
+				611BA80E21B286E10030D65C /* libresolv.tbd */,
+				611BA80C21B286D50030D65C /* CoreTelephony.framework */,
+				6169A5CF21B1111D000A83EB /* libc++.tbd */,
+				92567E9D137E8CD1A35A44C9 /* libPods-FaceVerificatorDEMO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6139CCEB21AD1AA400C7012A /* FaceVerificatorDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6139CD0221AD1AA500C7012A /* Build configuration list for PBXNativeTarget "FaceVerificatorDEMO" */;
+			buildPhases = (
+				1010153BCB4807D8D2694ECF /* [CP] Check Pods Manifest.lock */,
+				6139CCE821AD1AA400C7012A /* Sources */,
+				6139CCE921AD1AA400C7012A /* Frameworks */,
+				6139CCEA21AD1AA400C7012A /* Resources */,
+				6169A5D621B1157D000A83EB /* Embed Frameworks */,
+				77BC8A323C15761FFEEB1872 /* [CP] Embed Pods Frameworks */,
+				F42EBFD3B2D2DCFF1315B8BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceVerificatorDEMO;
+			productName = FaceVerificatorDEMO;
+			productReference = 6139CCEC21AD1AA400C7012A /* FaceVerificatorDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6139CCE421AD1AA400C7012A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhanghao;
+				TargetAttributes = {
+					6139CCEB21AD1AA400C7012A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6139CCE721AD1AA400C7012A /* Build configuration list for PBXProject "FaceVerificatorDEMO" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6139CCE321AD1AA400C7012A;
+			productRefGroup = 6139CCED21AD1AA400C7012A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6139CCEB21AD1AA400C7012A /* FaceVerificatorDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6139CCEA21AD1AA400C7012A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6100111921BF93B400C8CF07 /* ZHFaceVerificator.framework in Resources */,
+				6139CCFC21AD1AA500C7012A /* LaunchScreen.storyboard in Resources */,
+				6139CCF921AD1AA500C7012A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1010153BCB4807D8D2694ECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceVerificatorDEMO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BC8A323C15761FFEEB1872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceVerificatorDEMO/Pods-FaceVerificatorDEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42EBFD3B2D2DCFF1315B8BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceVerificatorDEMO/Pods-FaceVerificatorDEMO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6139CCE821AD1AA400C7012A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6139CCFF21AD1AA500C7012A /* main.m in Sources */,
+				9657236B21DDD7A7001E90D9 /* NSObject+JsonHelper.m in Sources */,
+				6139CCF121AD1AA400C7012A /* AppDelegate.m in Sources */,
+				617F23B321B3C9F400A2ED2A /* testVCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6139CCFA21AD1AA500C7012A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6139CCFB21AD1AA500C7012A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6139CD0021AD1AA500C7012A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6139CD0121AD1AA500C7012A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6139CD0321AD1AA500C7012A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F164678F16BCF98CC9E21F3 /* Pods-FaceVerificatorDEMO.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY5BNMAGUW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/ZHFaceVerificator.framework\"",
+				);
+				INFOPLIST_FILE = FaceVerificatorDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/ZHFaceVerificator.framework\"";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfan.DEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
+			};
+			name = Debug;
+		};
+		6139CD0421AD1AA500C7012A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99131FBB5EC52EA48C9094E4 /* Pods-FaceVerificatorDEMO.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY5BNMAGUW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/ZHFaceVerificator.framework\"",
+				);
+				INFOPLIST_FILE = FaceVerificatorDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/ZHFaceVerificator.framework\"";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfan.DEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6139CCE721AD1AA400C7012A /* Build configuration list for PBXProject "FaceVerificatorDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6139CD0021AD1AA500C7012A /* Debug */,
+				6139CD0121AD1AA500C7012A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6139CD0221AD1AA500C7012A /* Build configuration list for PBXNativeTarget "FaceVerificatorDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6139CD0321AD1AA500C7012A /* Debug */,
+				6139CD0421AD1AA500C7012A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6139CCE421AD1AA400C7012A /* Project object */;
+}
